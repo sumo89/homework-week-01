@@ -15,8 +15,6 @@ var randomVerb = verb[Math.floor(Math.random() * verb.length)];
 var randomVehicle = vehicle[Math.floor(Math.random() * vehicle.length)];
 
 //story
-var story = 'Once upon a time there was a ' + randomAdjective + ' ' + randomNoun + '. It was really ' + randomAdjective + '. It liked to ' + randomVerb + 'all day. One day, it went to ' + randomPlace + ' to meet ' + randomPerson + '. To get there, it rode in a ' + randomVehicle + ', but on the way there, the ' + randomVehicle + ' crashed. It had to walk the rest of the way.';
+var story = 'Once upon a time there was a ' + randomAdjective + ' ' + randomNoun + '. It was really ' + randomAdjective + '. It liked to ' + randomVerb + ' all day. One day, it went to ' + randomPlace + ' to meet ' + randomPerson + '. To get there, it rode in a ' + randomVehicle + ', but on the way there, the ' + randomVehicle + ' crashed. It had to walk the rest of the way.';
 
 console.log(story);
-
-story;
